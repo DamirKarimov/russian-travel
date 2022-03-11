@@ -1,0 +1,57 @@
+@media screen and (min-width: 1280px) {
+  .places__title {
+    width: 50%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 80px 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__title {
+    width: 50%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 80px 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__title {
+    width: 50%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 110%;
+    margin: 80px 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__title {
+    grid-area: places-place;
+    min-width: 50%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+    margin: 50px 16px 0;
+    font-style: normal;
+  }
+}
+
+
+/*@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__title {
+    min-width: 320px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+    margin: 50px 16px 0;
+    font-style: normal;
+  }*/
