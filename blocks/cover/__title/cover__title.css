@@ -1,8 +1,11 @@
+.cover__title {
+  text-align: center;
+}
+
 @media screen and (min-width: 1280px) {
   .cover__title {
     position: relative;
     margin: 0 312px 32px;
-    text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -18,7 +21,6 @@
   .cover__title {
     position: relative;
     margin: 0 312px 32px;
-    text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -34,7 +36,6 @@
   .cover__title {
     position: relative;
     margin: 0 104px 32px;
-    text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -50,7 +51,6 @@
   .cover__title {
     position: relative;
     margin: 33px 16px 16px;
-    text-align: center;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
