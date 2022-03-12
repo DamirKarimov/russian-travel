@@ -50,7 +50,7 @@
     display: grid;
     gap: 16px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr); ;
+    grid-template-rows: repeat(12, 1fr);
     grid-template-areas:
     "foto_1"
     "foto_2"
