@@ -8,12 +8,12 @@
 }
 
 @font-face {
-  font-family: 'inter-black' ;
+  font-family: 'inter-black';
   font-style:  black;
   font-weight: 900;
   font-display: swap;
   src: url("../vendor/fonts/Inter-Black.woff") format("woff"),
-       url("../vendor/fonts/Inter-Black.woff2") format("woff2")
+       url("../vendor/fonts/Inter-Black.woff2") format("woff2");
 }
 
 
@@ -23,5 +23,5 @@
   font-weight: 700;
   font-display: swap;
   src: url("../vendor/fonts/Inter-Bold.woff") format("woff"),
-       url("../vendor/fonts/Inter-Bold.woff2") format("woff2")
+       url("../vendor/fonts/Inter-Bold.woff2") format("woff2");
 }
