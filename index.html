@@ -7,17 +7,16 @@
     <link rel="stylesheet"  href="pages/index.css">
     <title>Путешествия по России</title>
 </head>
-<body>
-  <div class="page">
-    <header class="header">
+<body class="page">
+  <header class="header">
       <div class="header__logo"></div>
-      <nav class="header__navigation">
-        <a href="#" class="header__lang-link">RU</a>
+      <div class="header__navigation">
+        <a href="#" class="header__lang-link header__lang-link_underline">RU</a>
         <a href="#" class="header__lang-link">EN</a>
-      </nav>
-    </header>
+      </div>
+  </header>
 
-    <section class="lead">
+  <section class="lead">
       <h1 class="lead__title">
         Путешествия по России
       </h1>
@@ -26,9 +25,9 @@
       </p>
       <img src="images/sprint-3-images/lead-polka.jpg" alt="Изображение карты путешествения по городам на фоне вагона купе изнутри" class="lead__image">
       <p class="lead__caption">ваша полка - верхняя</p>
-    </section>
+  </section>
 
-    <section class="intro">
+  <section class="intro">
         <h2 class="intro__title">
           Чего мы там не видели?
         </h2>
@@ -47,9 +46,9 @@
           <li>Природных заповедников 105</li>
           <li>Аэропортов 241</li>
         </ul>
-    </section>
+  </section>
 
-    <div class="photo-grid">
+  <section class="photo-grid">
       <img src="images/sprint-3-images/photo-grid-train.jpg" alt="Фото из окна поезда" class="photo-grid__item photo-grid__item_grid-area-one ">
       <img src="images/sprint-3-images/photo-grid-atharva-tulsi.jpg" alt="Фото гор" class="photo-grid__item photo-grid__item_grid-area-two">
       <img src="images/sprint-3-images/photo-grid-tuman.jpg" alt="Фото волка на холме" class="photo-grid__item photo-grid__item_grid-area-three">
@@ -62,10 +61,10 @@
       <img src="images/sprint-3-images/photo-grid-kamchatka-2.jpg" alt="Фото вулкана на камчатке" class="photo-grid__item photo-grid__item_grid-area-ten">
       <img src="images/sprint-3-images/photo-grid-baikal-2.jpg" alt="Фото Байкала" class="photo-grid__item photo-grid__item_grid-area-eleven">
       <img src="images/sprint-3-images/photo-grid-ergaki.jpg" alt="Фото мглистых гор" class="photo-grid__item photo-grid__item_grid-area-twelve">
-    </div>
+  </section>
 
-    <section class="places">
-      <div class="places__place">
+  <section class="places">
+      <artcile class="places__place">
         <h3 class="places__title">
           Куршская коса
         </h3>
@@ -87,7 +86,7 @@
             окуная в спокойствие природы и запах стального, прохладного моря.
           </p>
         </div>
-      </div>
+      </artcile>
 
       <div class="places__place">
         <h3 class="places__title">
@@ -183,23 +182,26 @@
           </p>
         </div>
       </div>
-    </section>
+  </section>
 
-    <section class="cover">
-      <div class="cover__background">
-        <div class="cover__overlay">
+  <section class="cover">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+        <div class="cover__background">
+          <div class="cover__overlay">
 
+          </div>
+          <h3 class="cover__title">
+            До Байкала «на собаках»
+          </h3>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+          </p>
         </div>
-        <h3 class="cover__title">
-          До Байкала «на собаках»
-        </h3>
-        <p class="cover__subtitle">
-          По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-        </p>
-      </div>
-    </section>
+      </a>
+  </section>
 
-    <footer class="footer">
+  <footer class="footer">
+    <nav class="footer__navigation">
       <a href="#" class="footer__link">
         Карты
       </a>
@@ -215,8 +217,8 @@
       <a href="#" class="footer__link">
         Путешествия
       </a>
+    </nav>
       <p class="footer__copyright">&copy;2020. Дамир</p>
-    </footer>
-  </div>
+  </footer>
 </body>
 </html>

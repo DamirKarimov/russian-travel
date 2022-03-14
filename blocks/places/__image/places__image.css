@@ -1,16 +1,17 @@
+.places__image {
+  object-fit: cover;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 1280px) {
   .places__image {
     max-width: 460px;
-    object-fit: cover;
-    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__image {
     max-width: 440px;
-    object-fit: cover;
-    margin-right: auto;
   }
 }
 
@@ -18,8 +19,7 @@
   .places__image {
     width: 340px;
     height: 340px;
-    object-fit: cover;
-    margin-right: auto;
+    margin-right: 32px;
   }
 }
 
@@ -28,7 +28,6 @@
     grid-area: places__image;
     max-width: 95%;
     height: auto;
-    object-fit: cover;
     margin: 32px 0 0;
   }
 }

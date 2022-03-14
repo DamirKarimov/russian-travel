@@ -3,7 +3,6 @@
     text-decoration: none;
     color: white;
     margin-right: 18px;
-    z-index: 1;
   }
 
   .footer__link:hover {
@@ -16,7 +15,6 @@
     text-decoration: none;
     color: white;
     margin-right: 18px;
-    z-index: 1;
   }
 
   .footer__link:hover {
@@ -29,7 +27,6 @@
     text-decoration: none;
     color: white;
     margin-right: 18px;
-    z-index: 1;
   }
 
   .footer__link:hover {
@@ -43,7 +40,6 @@
     text-decoration: none;
     color: white;
     margin: 0 0 32px 16px;
-    z-index: 1;
   }
 
   .footer__link:hover {
